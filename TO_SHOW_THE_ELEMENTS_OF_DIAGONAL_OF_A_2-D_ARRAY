@@ -1,0 +1,26 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{ int r,c,rows,columns;
+    int arr[10][10];
+    cout<<"enter the no of rows and columns"<<endl;
+    cin>>rows>>columns;
+    for(r=0;r<rows;r++){
+        for(c=0;c<columns;c++){
+            cin>>arr[r][c];
+
+        }
+
+    }
+
+    for(r=0;r<rows;r++){
+
+        cout<<arr[r][r];
+    }
+
+
+    return 0;
+}
