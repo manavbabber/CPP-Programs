@@ -1,0 +1,23 @@
+#include <iostream>
+#include<conio.h>
+using namespace std;
+
+long int fact (int);
+
+int main()
+{ int n,r;
+  long int ncr;
+cout<<"Enter the value of n:"<<endl;
+cin>>n;
+cout<<"Enter the value of r:"<<endl;
+cin>>r;
+ncr=fact(n)/(fact(n-r)*fact(r));
+cout<<"combination is:"<<ncr<<endl;
+return 0;
+}
+long int fact(int x)
+{ int i,f=1;
+for(i=2;i<=x;i++){
+    f*=i; }
+    return f;
+};
