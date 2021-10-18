@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{ int arr[20],n,search,first,last,middle;
+{ int arr[30],n,search,first,last,middle;
  
  cout << "Enter the number of Elements in an array:"<<endl;
  cin>>n;
